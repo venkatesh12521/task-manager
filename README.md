@@ -1,6 +1,32 @@
 # Getting Started with Create React App
+Task Management App
+Overview
+This is a simple task management web application built using React. It allows users to add, delete, and move tasks between different statuses such as "Pending", "In Progress", and "Completed".
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Add new tasks with titles, descriptions, start dates, assignees, and priorities.
+Delete tasks from the task list.
+Move tasks between different statuses.
+Display tasks categorized by status.
+Installation
+To run this project locally, follow these steps:
+
+Clone the repository to your local machine:
+git clone https://github.com/venkatesh12521/task-manager.git
+Navigate to the project directory:
+cd task-management-app
+Install dependencies using npm:
+npm install
+Start the development server:
+npm start
+Open your web browser and visit 'http://localhost:3000' to view the application.
+
+Usage
+-Click on the "Add Task" button to add a new task. Fill in the required information and click "ADD TAsk".
+-Tasks are displayed under different columns based on their status: "Pending", "In Progress", and "Completed".
+-To delete a task, click on the "Delete Task" button under the respective task.
+-To move a task to a different status, click on the corresponding "Move to [Status]" button.
+-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
